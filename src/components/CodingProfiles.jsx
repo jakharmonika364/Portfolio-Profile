@@ -47,9 +47,11 @@ export default function CodingProfiles() {
                     </h2>
                 </div>
 
-                <div className="grid gap-4" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(148px, 1fr))' }}>
+                <div className="flex flex-wrap justify-center gap-4">
                     {profiles.map((p, i) => (
-                        <ProfileCard key={p.name} p={p} index={i} />
+                        <div key={p.name} className="w-[160px] flex-shrink-0">
+                            <ProfileCard p={p} index={i} />
+                        </div>
                     ))}
                 </div>
             </div>

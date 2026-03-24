@@ -23,4 +23,10 @@ export const profiles = [
         icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
         url: 'https://github.com/jakharmonika364',
     },
+    {
+        name: 'Codolio',
+        stat: '804+ solved',
+        icon: 'https://codolio.com/codolio_assets/codolio.svg',
+        url: 'https://codolio.com/profile/monika5',
+    },
 ];
