@@ -13,7 +13,7 @@ function ProfileCard({ p, index }) {
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.4, delay: index * 0.08 }}
-            className="flex flex-col items-center gap-3 bg-white border border-[#E4E4DF] rounded-2xl py-6 px-4 shadow-card text-center
+            className="flex flex-col items-center justify-center gap-3 bg-white border border-[#E4E4DF] rounded-2xl py-8 px-4 shadow-card text-center h-full min-h-[155px]
         hover:-translate-y-1 hover:border-[#5B4FE9] hover:shadow-card-hover transition-all duration-300 cursor-pointer"
         >
             <img

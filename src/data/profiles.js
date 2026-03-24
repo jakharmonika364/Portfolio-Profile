@@ -29,4 +29,10 @@ export const profiles = [
         icon: 'https://codolio.com/codolio_assets/codolio.svg',
         url: 'https://codolio.com/profile/monika5',
     },
+    {
+        name: 'CodeChef',
+        stat: '744+ solved',
+        icon: 'https://cdn.codechef.com/images/cc-logo.svg',
+        url: 'https://www.codechef.com/users/monikap25',
+    },
 ];
