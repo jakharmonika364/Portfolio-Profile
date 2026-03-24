@@ -1,0 +1,58 @@
+export const achievements = [
+    {
+        emoji: '🏆',
+        bg: '#FFF7E6',
+        title: '1st Place — Smart India Hackathon',
+        subtitle: 'National level · Ministry of Education',
+        year: '2024',
+    },
+    {
+        emoji: '☁️',
+        bg: '#EBF5FF',
+        title: 'AWS Certified Cloud Practitioner',
+        subtitle: 'Amazon Web Services',
+        year: 'Jan 2024',
+    },
+    {
+        emoji: '🎓',
+        bg: '#FFF0F6',
+        title: 'Meta Front-End Developer Certificate',
+        subtitle: 'Coursera · Meta',
+        year: 'Sep 2023',
+    },
+    {
+        emoji: '⭐',
+        bg: '#F0FFF4',
+        title: '5-Star Problem Solving — HackerRank',
+        subtitle: 'Top 5% globally · Gold badge',
+        year: '2023',
+    },
+    {
+        emoji: '🥇',
+        bg: '#F0EEFF',
+        title: "Dean's List — 4 Consecutive Semesters",
+        subtitle: 'CGPA 8.7/10 · XYZ University',
+        year: '2022–2024',
+    },
+    {
+        emoji: '🔐',
+        bg: '#FFF1F0',
+        title: 'Google Cybersecurity Certificate',
+        subtitle: 'Coursera · Google',
+        year: 'Mar 2024',
+    },
+    {
+        emoji: '💡',
+        bg: '#FFFBE6',
+        title: 'Top 100 — Flipkart GRiD 5.0',
+        subtitle: 'Software Development Challenge',
+        year: '2023',
+    },
+    {
+        emoji: '🌐',
+        bg: '#E6FFF2',
+        title: 'Hacktoberfest — 5+ PRs Merged',
+        subtitle: 'Open Source Contributor Badge',
+        year: '2023 & 2024',
+    },
+];
